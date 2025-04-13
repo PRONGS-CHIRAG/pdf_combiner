@@ -1,3 +1,12 @@
+"""
+🚀 PDF & Image Merger
+Created by: Chirag Natesh Vijay (https://chiragatgermany.wixsite.com/chirag-natesh-vijay | GitHub: @PRONGS-CHIRAG)
+Version: 1.0
+License: MIT
+
+🛠️ Streamlit-based app for merging and reordering PDFs and images into a single PDF.
+"""
+
 import streamlit as st
 from streamlit_sortables import sort_items
 from PyPDF2 import PdfMerger
@@ -5,8 +14,8 @@ from PIL import Image
 import tempfile
 import os
 
-st.set_page_config(page_title="PDF & Image Merger with Drag-and-Drop", layout="centered")
-st.title("📎 PDF & Image Merger with Drag-and-Drop Reordering")
+st.set_page_config(page_title="PDF & Image Merger", layout="centered")
+st.title("📎 PDF & Image Merger")
 
 uploaded_files = st.file_uploader(
     "Upload PDF and/or Image files",
