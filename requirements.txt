@@ -1,0 +1,5 @@
+streamlit
+streamlit-sortables
+PyPDF2
+Pillow
+pyarrow
